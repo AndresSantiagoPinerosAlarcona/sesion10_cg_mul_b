@@ -53,7 +53,10 @@ function init() {
             arrCube[i].geometry.translate(0, 0, d)*/
 
         arrCube[i].geometry.translate((i==0)*d, (i==1)*d, (i==2)*d)
-        arrCube[0].geometry.rotateZ(-Math.PI/2)
+        
+        arrCube[0].geometry.rotateZ(-Math.PI/2);
+        //arrCube[1].geometry.rotateX(-Math.PI/2);
+        //arrCube[2].geometry.rotateY((i==2)*Math.PI);
     }
 
 
